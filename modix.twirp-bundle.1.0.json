@@ -1,0 +1,24 @@
+{
+  "manifests": {
+    "modix/twirp-bundle": {
+      "manifest": {
+        "bundles": {
+          "Modix\\TwirpBundle\\ModixTwirpBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        },
+        "post-install-output": [
+          "  * Your Twip Service is almost ready:",
+          "    1. do this",
+          "    2. do that...",
+          "",
+          "  * <fg=blue>Read</> the documentation at <comment>https://ghe.coxautoinc.com/modix/libraries.twirp-bundle/blob/master/README.md</>"
+        ]
+      },
+      "ref": "d57f9ff8067d87077f026c4b4701ec876839aed9"
+    }
+  }
+}
