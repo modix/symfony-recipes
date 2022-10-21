@@ -1,0 +1,10 @@
+{
+    "bundles": {
+      "Modix\\TwirpBundle\\ModixTwirpBundle": [
+        "all"
+      ]
+    },
+    "copy-from-recipe": {
+      "config/": "%CONFIG_DIR%/"
+    }
+}
