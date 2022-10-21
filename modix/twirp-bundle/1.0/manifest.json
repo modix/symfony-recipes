@@ -6,6 +6,6 @@
     },
     "copy-from-recipe": {
       "config/": "%CONFIG_DIR%/",
-      "twirp-php/": "."
+      "twirp-php/": "twirp-php"
     }
 }

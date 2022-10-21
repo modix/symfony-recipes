@@ -1,11 +1,11 @@
 modix_twirp:
-  services:
-    Modix\RPC\ExampleService:
-      prefix: '/examples.twirphp-server'
-      action: 'App\Action\CustomAction'
-      hook: 'App\Hook\ExampleHook'
-    Modix\RPC\UselessService:
-      prefix: '/useless.example.prefix'
-      methods:
-        moreNothing:
-          action: 'App\Action\AnotherCustomAction'
+#  services:
+#    Modix\RPC\ExampleService:
+#      prefix: '/examples.twirphp-server'
+#      action: 'App\Action\CustomAction'
+#      hook: 'App\Hook\ExampleHook'
+#    Modix\RPC\UselessService:
+#      prefix: '/useless.example.prefix'
+#      methods:
+#        moreNothing:
+#          action: 'App\Action\AnotherCustomAction'
